@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c02x0g4wg3nu"
+path="res://.godot/imported/Yandexmapket231223.obj-fefc5768eec3883dab47d63d1e92b348.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Yandexmapket231223.obj-fefc5768eec3883dab47d63d1e92b348.mesh"]
+
+source_file="res://Assets/3D/shoppingcenter/Yandexmapket231223.obj"
+dest_files=["res://.godot/imported/Yandexmapket231223.obj-fefc5768eec3883dab47d63d1e92b348.mesh", "res://.godot/imported/Yandexmapket231223.obj-fefc5768eec3883dab47d63d1e92b348.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

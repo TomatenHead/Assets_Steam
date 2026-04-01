@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cipy12gq2mefg"]
+
+[ext_resource type="PackedScene" uid="uid://ds3t2jn0dkbji" path="res://Assets/3D/5_Buildings/Textures/Textures_02/Building_02.fbx" id="1_mbt25"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mbt25"]
+size = Vector3(6.239502, 14.135468, 8.010315)
+
+[node name="Node3D" type="Node3D" unique_id=1049416434]
+
+[node name="Building_02" parent="." unique_id=328020898 instance=ExtResource("1_mbt25")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.029345, 0, 0)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building_02" unique_id=874460504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.650609, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building_02/StaticBody3D" unique_id=37118201]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.25012207, 6.567734, -0.07223034)
+shape = SubResource("BoxShape3D_mbt25")

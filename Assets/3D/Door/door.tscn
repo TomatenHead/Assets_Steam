@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ds7vb76qn1rj6"]
+
+[ext_resource type="PackedScene" uid="uid://c25o1v40d4upu" path="res://Assets/3D/Door/wooden_doorFBX.fbx" id="1_q85jr"]
+
+[node name="Door" type="Node3D" unique_id=1593205979]
+
+[node name="wooden_doorFBX" parent="." unique_id=26638828 instance=ExtResource("1_q85jr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4529868, 1.0113599, 0)

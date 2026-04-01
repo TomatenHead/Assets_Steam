@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://c7nob6i0sasr7"]
+
+[ext_resource type="PackedScene" uid="uid://d14elyifhcmoe" path="res://Assets/3D/5_Buildings/Textures/Textures_01/Building_01.fbx" id="1_8j2q1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8j2q1"]
+size = Vector3(6.213501, 14.135468, 8.017227)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x1uxx"]
+size = Vector3(7.3952637, 4.5682373, 8.564926)
+
+[node name="Node3D" type="Node3D" unique_id=2104351855]
+
+[node name="Building_01" parent="." unique_id=2060387914 instance=ExtResource("1_8j2q1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.832, 0, 0.2795396)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Building_01" unique_id=1472692250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.462784, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Building_01/StaticBody3D" unique_id=796243995]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.93076944, 6.567734, -0.18880463)
+shape = SubResource("BoxShape3D_8j2q1")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Building_01/StaticBody3D" unique_id=1979459594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.90930176, 1.93467, -4.284767)
+shape = SubResource("BoxShape3D_x1uxx")
